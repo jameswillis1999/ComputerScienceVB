@@ -1,3 +1,6 @@
+' A simple rock paper scissors game.
+' Has a system where you can bet on if you win.
+
 Public Class Form1
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
