@@ -1,3 +1,7 @@
+' Game I made as a challenge in class.
+' 3 Stacks of randomly generated numbers (sticks)
+' Player & computer goes in turn to pick one stack at a time and remove a specified number of sticks
+
 Public Class Form1
 
     'Declarations
