@@ -31,25 +31,6 @@ Public Class Form1
         End Select
     End Function
 
-    Public Function pictureNamer()
-        'Sets the number related to the picture
-        'so it can be compared later in the program.
-        Select Case bytNumber
-            Case 1
-                Return 1 ' cherry
-            Case 2
-                Return 2 ' lemon
-            Case 3
-                Return 3 ' orange
-            Case 4
-                Return 4 ' melon
-            Case 5
-                Return 5 ' bannana
-            Case 6
-                Return 6 ' bigwin
-        End Select
-    End Function
-
 
     Public Function picturePicker()
         'This function is used 3 times
@@ -58,13 +39,13 @@ Public Class Form1
         Select Case i
             Case 1
                 pbLeft1.Image = pictureSelector()
-                bytLeft = pictureNamer()
+                bytLeft = bytNumber
             Case 2
                 pbMid1.Image = pictureSelector()
-                bytMid = pictureNamer()
+                bytMid = bytNumber
             Case 3
                 pbRight1.Image = pictureSelector()
-                bytRight = pictureNamer()
+                bytRight = bytNumber
         End Select
     End Function
 
